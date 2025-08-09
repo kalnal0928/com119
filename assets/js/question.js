@@ -94,11 +94,7 @@ const questions = [
     },
     {
         number: "10",
-        question: "다음 SI 단위를 그에 해당하는 10진수 값과 연결하시오.
-SI 단위 10진수 값
-A. kilo(K) ① 10¹²
-B. giga(G) ② 10³
-C. tera(T) ③ 10⁹",
+        question: "다음 SI 단위를 그에 해당하는 10진수 값과 연결하시오.\nSI 단위 10진수 값\nA. kilo(K) ① 10¹²\nB. giga(G) ② 10³\nC. tera(T) ③ 10⁹",
         answer: "A-②, B-③, C-①",
         chapter: "컴퓨터 구조",
         type: "essay"
@@ -240,30 +236,22 @@ C. tera(T) ③ 10⁹",
     },
     {
         number: "29",
-        question: "다음 12비트 2의 보수 표현 수 1111 1110 0100에 대해,
-① sign-extension을 적용했을 때의 32비트 결과를 16진수로 나타내시오.
-② zero-extension을 적용했을 때의 32비트 결과를 16진수로 나타내시오.",
+        question: "다음 12비트 2의 보수 표현 수 1111 1110 0100에 대해,\n① sign-extension을 적용했을 때의 32비트 결과를 16진수로 나타내시오.\n② zero-extension을 적용했을 때의 32비트 결과를 16진수로 나타내시오.",
         answer: "FFFFFE4 / 00000E4",
         chapter: "컴퓨터 구조",
         type: "essay"
     },
     {
         number: "30",
-        question: "다음 명령어 수행 후 레지스터 x9의 결과값을 16진수로 쓰시오.
-and x9, x10, x11
-x10 = 0xFFFF_1234
-x11 = 0x0000_FF00",
+        question: "다음 명령어 수행 후 레지스터 x9의 결과값을 16진수로 쓰시오.\nand x9, x10, x11\nx10 = 0xFFFF_1234\nx11 = 0x0000_FF00",
         answer: "0x0000_1200",
         chapter: "컴퓨터 구조",
         type: "essay"
     },
     {
         number: "31",
-        question: "다음 XOR 명령어 수행 결과, x9에 저장되는 값을 16진수로 나타내시오.
-xor x9, x10, x12
-x10 = 00000000 00000000 00001101 11000000
-x12 = 11111111 11111111 11111111 11111111",
-        answer: "FFFFF23F",
+        question: "다음 XOR 명령어 수행 결과, x9에 저장되는 값을 16진수로 나타내시오.\nxor x9, x10, x12\nx10 = 00000000 00000000 00001101 11000000\nx12 = 11111111 11111111 11111111 11111111",
+        answer: "x10 = 00000000 00000000 00001101 11000000 = 0x00000DC0\nx12 = 11111111 11111111 11111111 11111111 = 0xFFFFFFFF\nx9 = x10 XOR x12 = 0xFFFFF23F",
         chapter: "컴퓨터 구조",
         type: "essay"
     },
