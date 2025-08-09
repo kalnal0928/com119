@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        startQuiz('네트워크', selectedType);
+        startQuiz('컴퓨터 구조', selectedType);
     });
     
     if (selectionTypeFilter) {
