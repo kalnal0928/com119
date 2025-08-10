@@ -279,7 +279,7 @@ const questions = [
     {
         number: "33",
         question: "XOR 연산을 이용하여 레지스터를 0으로 초기화하려면 어떤 조건이 필요한가?",
-        answer: "자기 자신과 XOR 연산을 수행한다.",
+        answer: "XOR 연산을 이용하여 레지스터를 0으로 초기화하려면 같은 값끼리 XOR 연산을 해야 합니다.\r\n핵심 조건\r\n동일한 두 값을 XOR 연산하면 결과는 항상 0이 됩니다.\r\nA ⊕ A = 0\r\n실제 적용 예시\r\n어셈블리어에서 레지스터를 0으로 초기화할 때:\r\nassemblyXOR EAX, EAX    ; EAX 레지스터를 자기 자신과 XOR → EAX = 0\r\nXOR RBX, RBX    ; RBX 레지스터를 자기 자신과 XOR → RBX = 0\r\nXOR의 특성\r\n이것이 가능한 이유는 XOR 연산의 다음 특성 때문입니다:\r\n\r\n0 ⊕ 0 = 0\r\n1 ⊕ 1 = 0\r\n\r\n따라서 어떤 비트 패턴이든 자기 자신과 XOR하면 모든 비트가 0이 됩니다.\r\n장점\r\n이 방법이 널리 사용되는 이유:\r\n\r\n효율성: MOV 명령어보다 빠름\r\n코드 크기: 더 적은 바이트 사용\r\n범용성: 레지스터의 현재 값에 관계없이 항상 0으로 만듦",
         chapter: "컴퓨터 구조",
         type: "essay"
     }
